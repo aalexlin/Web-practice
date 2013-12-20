@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,a,div,ul,li{
+    padding:0;margin:0;
+    }
+body{
+    background:#f8faf9;
+}
+#header,#footer,#content,#main{
+	margin:0 auto;
+	width:1000px;
+}
+/********NavigateMenu*********/
+#NavigateMenu{
+	width:1000px;
+	height:60px;
+	background:brown;
+}
+/********topheader部分********/
+#topHeader{
+	margin:0 auto;
+	width:1000px;
+    height:400px;
+	margin-bottom:2px;
+	background:#f8faf9;
+	}
+#topHeader1,#topHeader2,#topHeader3,#topHeader4{
+	margin:0 auto;
+    width:1000px;
+    height:400px;
+    background:brown;
+	margin-bottom:2px;
+	position:relative;
+    
+}
+.close{
+	position:absolute;
+	right:200px;
+	top:60px;
+	color:#FFF;
+	text-decoration:none;
+}
+.close:hover{
+	color:#000;
+}
+
+/********dengLu************/
+#dengLu{
+	width:480px;
+	height:260px;
+	position:absolute;
+	left:50px;
+	padding-top:50px;
+	border-right:2px #FFFFFF solid;
+}
+#dengLu a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	margin-top:20px;
+}
+label{
+	margin:10px auto;
+	display:block;
+}
+/********header部分********/
+#header{
+    height:50px;
+    background:brown;
+	margin-bottom:30px;
+}
+#logo{
+    width:200px;
+    height:50px;
+    background:#31343b;
+    margin-left:20px;
+    float:left;
+}
+#nav{
+    float:right;
+    margin-right:20px;
+    
+}
+ul{
+    list-style:none;
+}
+li{
+    width:50px;
+    height:50px;
+    background-color:#31343b;
+    float:left;
+    margin-left:1px;
+}
+#header a{
+	cursor:pointer;
+    text-decoration:none;
+    color:#fff;
+    line-height:50px;
+    text-align:center;
+    display:block;
+    font-family:Verdana,'Helvitica Neue', Helvitica, Arial, sans-serif;
+    }
+#header a:hover{
+    text-decoration:none;
+    color:brown;}
+#nav li a{
+    font-size:20px;
+}
+.password{
+	width:400px;
+	height:50px;
+	margin-top:20px;
+	font-size:20px;
+}
+.submit-login{
+	width:80px;
+	height:40px;
+	background:#000;
+	color:#FFF;
+}
+/*******content******/
+#content{
+	height:auto;
+}
+/*******banner*******/
+#banner{
+	width:760px;
+	height:400px;
+	float:right;
+	background:#A4A4A4;
+}
+/*******leftSidebar********/
+#leftSidebar{
+	width:240px;
+	height:400px;
+	float:left;
+	background:#CCC;
+}
+/*******main********/
+#main{
+	height:500px;
+	background:#DBDBDB;
+	clear:both;
+}
+/******footer******/
+#footer{
+	margin-top:30px;
+	height:100px;
+	background:brown;
+
+}
+
+
+    
+    
